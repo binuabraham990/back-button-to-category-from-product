@@ -1,0 +1,11 @@
+{% sw_extends '@Storefront/storefront/Resources/views/storefront/page/content/product-detail.html.twig' %}
+
+{% block cms_breadcrumb %}
+    {{ parent() }}
+    {% if context.extensions['back-url'].getBackUrl() !== '' %}
+        <div class="ntfx-back-url container">
+            <a href="{{ context.extensions['back-url'].getBackUrl() }}">{{ 'storefront.seidl.back-url'|trans }}</a>
+        </div>
+    {% endif %}
+
+{% endblock %}

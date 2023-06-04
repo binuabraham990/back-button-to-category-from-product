@@ -1,0 +1,24 @@
+{
+    "name": "swag/plugin-skeleton",
+    "description": "Go Back To Category Page",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NtfxBackFromProductPage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Binu Abraham",
+            "homepage": "https://github.com/binuabraham990"
+        }
+    ],
+    "extra": {
+        "shopware-plugin-class": "NtfxBackFromProductPage\\NtfxBackFromProductPage",
+        "label": {
+            "de-DE": "Go Back To Category Page",
+            "en-GB": "Go Back To Category Page"
+        }
+    }
+}
