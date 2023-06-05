@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Configuration</title>
+        <title lang="de-DE">Konfiguration</title>
+        <component name="sw-switch-field">
+            <name>ntfxUseJavascriptButton</name>
+            <label>Use javascript back button functionality</label>
+            <label lang="de-DE">Verwenden Sie die Javascript-Funktionalität der Zurück-Taste</label>
+            <helpText>
+                If true, the browser back button functionality will use. Otherwise, it will redirected to the top of the category of the product.
+            </helpText>
+            <helpText lang="de-DE">
+                If true, the browser back button functionality will use. Otherwise, it will redirected to the top of the category of the product if the previous page is from self.
+            </helpText>
+            <defaultValue>true</defaultValue>
+        </component>
+    </card>
+</config>

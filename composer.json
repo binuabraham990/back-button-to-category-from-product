@@ -2,20 +2,20 @@
     "name": "swag/plugin-skeleton",
     "description": "Go Back To Category Page",
     "type": "shopware-platform-plugin",
-    "license": "MIT",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
-            "NtfxBackFromProductPage\\": "src/"
+            "SeidlBackFromProductPage\\": "src/"
         }
     },
+    "license": "proprietary",
     "authors": [
         {
             "name": "Binu Abraham",
-            "homepage": "https://github.com/binuabraham990"
         }
     ],
     "extra": {
-        "shopware-plugin-class": "NtfxBackFromProductPage\\NtfxBackFromProductPage",
+        "shopware-plugin-class": "SeidlBackFromProductPage\\SeidlBackFromProductPage",
         "label": {
             "de-DE": "Go Back To Category Page",
             "en-GB": "Go Back To Category Page"
